@@ -1370,7 +1370,8 @@ lookup decompose_shin_sin_with_holam {
 	\nundagesh \samekhdagesh \finalpedagesh \pedagesh \tsadidagesh 
 	\kofdagesh \reshdagesh \shindagesh \tavdagesh \betrafe \khafrafe 
 	\perafe \aleflamed \gimelrafe \daletrafe \herafe \finalkafsheva 
-	\finalkafqamats \tavrafe \finalhe \finalhedagesh \finalhet \finalayin ] [\holam ] [\shinshindot \shindageshshindot ]'lookup decompose_shin_sin  ;
+	\finalkafqamats \tavrafe \finalhe \finalhedagesh \finalhet \finalayin 
+	\dagesh ] [\holam ] [\shinshindot \shindageshshindot ]'lookup decompose_shin_sin  ;
     sub [\alef \bet \gimel \dalet \he \zain \het \tet \yod \finalkaf \kaf \lamed \finalmem 
 	\mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi \tsadi \kof 
 	\resh \shin \tav \vavvav \vavyod \yodyod \yodhiriq \yodyodpatah 
@@ -1383,7 +1384,7 @@ lookup decompose_shin_sin_with_holam {
 	\tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh \betrafe 
 	\khafrafe \perafe \aleflamed \gimelrafe \daletrafe \herafe 
 	\finalkafsheva \finalkafqamats \tavrafe \finalhe \finalhedagesh 
-	\finalhet \finalayin ] [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\finalhet \finalayin \dagesh ] [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -1400,7 +1401,7 @@ lookup decompose_shin_sin_with_holam {
 	\tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh \betrafe 
 	\khafrafe \perafe \aleflamed \gimelrafe \daletrafe \herafe 
 	\finalkafsheva \finalkafqamats \tavrafe \finalhe \finalhedagesh 
-	\finalhet \finalayin ] [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\finalhet \finalayin \dagesh ] [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -1421,7 +1422,7 @@ lookup decompose_shin_sin_with_holam {
 	\tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh \betrafe 
 	\khafrafe \perafe \aleflamed \gimelrafe \daletrafe \herafe 
 	\finalkafsheva \finalkafqamats \tavrafe \finalhe \finalhedagesh 
-	\finalhet \finalayin ] [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\finalhet \finalayin \dagesh ] [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -1533,6 +1534,7 @@ lookup decompose_shin_sin_with_sin_shin {
 
 lookup strip_holam {
   lookupflag RightToLeft;
+    sub \dagesh \holam  by \dagesh;
     sub \sindot \holam  by \sindot;
     sub \alef \holam  by \alef;
     sub \bet \holam  by \bet;
@@ -1607,7 +1609,8 @@ lookup strip_holam_with_shin_sin {
 	\nundagesh \samekhdagesh \finalpedagesh \pedagesh \tsadidagesh 
 	\kofdagesh \reshdagesh \shindagesh \tavdagesh \betrafe \khafrafe 
 	\perafe \aleflamed \gimelrafe \daletrafe \herafe \finalkafsheva 
-	\finalkafqamats \tavrafe \finalhe \finalhedagesh \finalhet \finalayin ]'lookup strip_holam  [\holam ] [\shin \shindagesh ] [\shindot ] ;
+	\finalkafqamats \tavrafe \finalhe \finalhedagesh \finalhet \finalayin 
+	\dagesh ]'lookup strip_holam  [\holam ] [\shin \shindagesh ] [\shindot ] ;
     sub [\alef \bet \gimel \dalet \he \zain \het \tet \yod \finalkaf \kaf \lamed \finalmem 
 	\mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi \tsadi \kof 
 	\resh \shin \tav \vavvav \vavyod \yodyod \yodhiriq \yodyodpatah 
@@ -1620,7 +1623,7 @@ lookup strip_holam_with_shin_sin {
 	\tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh \betrafe 
 	\khafrafe \perafe \aleflamed \gimelrafe \daletrafe \herafe 
 	\finalkafsheva \finalkafqamats \tavrafe \finalhe \finalhedagesh 
-	\finalhet \finalayin ]'lookup strip_holam  [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\finalhet \finalayin \dagesh ]'lookup strip_holam  [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -1637,7 +1640,7 @@ lookup strip_holam_with_shin_sin {
 	\tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh \betrafe 
 	\khafrafe \perafe \aleflamed \gimelrafe \daletrafe \herafe 
 	\finalkafsheva \finalkafqamats \tavrafe \finalhe \finalhedagesh 
-	\finalhet \finalayin ]'lookup strip_holam  [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\finalhet \finalayin \dagesh ]'lookup strip_holam  [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -1658,7 +1661,7 @@ lookup strip_holam_with_shin_sin {
 	\tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh \betrafe 
 	\khafrafe \perafe \aleflamed \gimelrafe \daletrafe \herafe 
 	\finalkafsheva \finalkafqamats \tavrafe \finalhe \finalhedagesh 
-	\finalhet \finalayin ]'lookup strip_holam  [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\finalhet \finalayin \dagesh ]'lookup strip_holam  [\holam ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -1842,7 +1845,7 @@ feature salt {
 # GPOS 
 
 
-lookup Latinkerning {
+lookup latin_kerning {
   lookupflag 0;
     pos \F \o -172;
     pos \F \i -96;
@@ -1873,9 +1876,9 @@ lookup Latinkerning {
     pos \u \n 191;
     pos \w \s -114;
     pos \w \o -178;
-} Latinkerning;
+} latin_kerning;
 
-lookup dotringabovepositioning {
+lookup dot_ring_above_positioning {
   lookupflag RightToLeft;
   markClass [\ringnosp ] <anchor 0 0> @Anchor2;
   markClass [\dieresisnosp ] <anchor 0 0> @Anchor1;
@@ -2057,9 +2060,9 @@ lookup dotringabovepositioning {
   pos base [\tavrafe ] <anchor 686 150> mark @Anchor0
 	<anchor 686 150> mark @Anchor1
 	<anchor 686 150> mark @Anchor2;
-} dotringabovepositioning;
+} dot_ring_above_positioning;
 
-lookup specialdageshplacement {
+lookup special_dagesh_placement {
   lookupflag RightToLeft;
   markClass [\dagesh ] <anchor 0 0> @Anchor3;
   pos base [\het \finalhet ] <anchor 668 0> mark @Anchor3;
@@ -2077,9 +2080,9 @@ lookup specialdageshplacement {
   pos base [\finalmem.wide ] <anchor 897 0> mark @Anchor3;
   pos base [\resh.wide ] <anchor 755 0> mark @Anchor3;
   pos base [\tav.wide ] <anchor 1001 0> mark @Anchor3;
-} specialdageshplacement;
+} special_dagesh_placement;
 
-lookup basevowelpositioning {
+lookup base_vowel_positioning {
   lookupflag RightToLeft;
   markClass [\hatafsegol_meteg \hatafpatah_meteg \hatafqamats_meteg ] <anchor 0 0> @Anchor7;
   markClass [\hatafsegol \hatafpatah \hatafqamats ] <anchor 0 0> @Anchor6;
@@ -2287,9 +2290,9 @@ lookup basevowelpositioning {
 	<anchor 710 0> mark @Anchor5
 	<anchor 760 0> mark @Anchor6
 	<anchor 662 0> mark @Anchor7;
-} basevowelpositioning;
+} base_vowel_positioning;
 
-lookup basevowelpositioningwithoneotherbasemark {
+lookup base_vowel_positioning_with_one_other_base_mark {
   lookupflag RightToLeft;
   markClass [\hatafsegol \hatafpatah ] <anchor -148 0> @Anchor10;
   markClass [\hatafqamats ] <anchor -149 0> @Anchor10;
@@ -2483,16 +2486,16 @@ lookup basevowelpositioningwithoneotherbasemark {
   pos base [\lamedholam \lameddageshholam ] <anchor 440 0> mark @Anchor8
 	<anchor 450 0> mark @Anchor9
 	<anchor 440 0> mark @Anchor10;
-} basevowelpositioningwithoneotherbasemark;
+} base_vowel_positioning_with_one_other_base_mark;
 
-lookup shiftvowelpositioningwithoneotherbasemark {
+lookup shift_vowel_positioning_with_one_other_base_mark {
   lookupflag RightToLeft;
     pos [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
-	\qubuts \meteg \qamatsqatan ]'lookup basevowelpositioningwithoneotherbasemark  [\atnah \tipeha \tevir \atnahhafukh \munah \mahapakh \merkha \merkhakefula \darga 
+	\qubuts \meteg \qamatsqatan ]'lookup base_vowel_positioning_with_one_other_base_mark  [\atnah \tipeha \tevir \atnahhafukh \munah \mahapakh \merkha \merkhakefula \darga 
 	\yerahbenyomo \meteg ] ;
-} shiftvowelpositioningwithoneotherbasemark;
+} shift_vowel_positioning_with_one_other_base_mark;
 
-lookup basevowelpositioningwithtwootherbasemarks {
+lookup base_vowel_positioning_with_two_other_base_marks {
   lookupflag RightToLeft;
   markClass [\hatafsegol \hatafqamats ] <anchor -297 0> @Anchor13;
   markClass [\hatafpatah ] <anchor -296 0> @Anchor13;
@@ -2674,20 +2677,20 @@ lookup basevowelpositioningwithtwootherbasemarks {
   pos base [\vavholam \vavholamhaser ] <anchor 345 0> mark @Anchor11
 	<anchor 345 0> mark @Anchor12
 	<anchor 290 0> mark @Anchor13;
-} basevowelpositioningwithtwootherbasemarks;
+} base_vowel_positioning_with_two_other_base_marks;
 
-lookup shiftvowelpositioningwithtwootherbasemarks {
+lookup shift_vowel_positioning_with_two_other_base_marks {
   lookupflag RightToLeft;
     pos [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
-	\qubuts \meteg \qamatsqatan ]'lookup basevowelpositioningwithtwootherbasemarks  [\atnah \tipeha \tevir \atnahhafukh \munah \mahapakh \merkha \merkhakefula \darga 
+	\qubuts \meteg \qamatsqatan ]'lookup base_vowel_positioning_with_two_other_base_marks  [\atnah \tipeha \tevir \atnahhafukh \munah \mahapakh \merkha \merkhakefula \darga 
 	\yerahbenyomo \meteg ] [\atnah \tipeha \tevir \atnahhafukh \munah \mahapakh \merkha \merkhakefula \darga 
 	\yerahbenyomo \meteg ] ;
     pos [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
-	\qubuts \meteg \qamatsqatan ]'lookup basevowelpositioningwithtwootherbasemarks  [\atnah \tipeha \tevir \atnahhafukh \munah \mahapakh \merkha \merkhakefula \darga 
+	\qubuts \meteg \qamatsqatan ]'lookup base_vowel_positioning_with_two_other_base_marks  [\atnah \tipeha \tevir \atnahhafukh \munah \mahapakh \merkha \merkhakefula \darga 
 	\yerahbenyomo \meteg ] [\patah ] ;
-} shiftvowelpositioningwithtwootherbasemarks;
+} shift_vowel_positioning_with_two_other_base_marks;
 
-lookup basevowelpositioningwithmetegandyetivordehi {
+lookup base_vowel_positioning_with_meteg_and_yetiv_or_dehi {
   lookupflag RightToLeft;
   markClass [\hatafsegol \hatafqamats ] <anchor -42 0> @Anchor16;
   markClass [\hatafpatah ] <anchor -41 0> @Anchor16;
@@ -2871,15 +2874,15 @@ lookup basevowelpositioningwithmetegandyetivordehi {
   pos base [\vavholam \vavholamhaser ] <anchor 345 0> mark @Anchor14
 	<anchor 290 0> mark @Anchor15
 	<anchor 280 0> mark @Anchor16;
-} basevowelpositioningwithmetegandyetivordehi;
+} base_vowel_positioning_with_meteg_and_yetiv_or_dehi;
 
-lookup shiftbasevowelpositioningwithmetegandyetivordehi {
+lookup shift_base_vowel_positioning_with_meteg_and_yetiv_or_dehi {
   lookupflag RightToLeft;
     pos [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
-	\qubuts \qamatsqatan ]'lookup basevowelpositioningwithmetegandyetivordehi  [\meteg ] [\yetiv \dehi ] ;
-} shiftbasevowelpositioningwithmetegandyetivordehi;
+	\qubuts \qamatsqatan ]'lookup base_vowel_positioning_with_meteg_and_yetiv_or_dehi  [\meteg ] [\yetiv \dehi ] ;
+} shift_base_vowel_positioning_with_meteg_and_yetiv_or_dehi;
 
-lookup basevowelpositioningwithyetivordehi {
+lookup base_vowel_positioning_with_yetiv_or_dehi {
   lookupflag RightToLeft;
   markClass [\hatafsegol \hatafqamats ] <anchor -42 0> @Anchor19;
   markClass [\hatafpatah ] <anchor -41 0> @Anchor19;
@@ -2905,15 +2908,15 @@ lookup basevowelpositioningwithyetivordehi {
   pos base [\reshdagesh ] <anchor 600 0> mark @Anchor17
 	<anchor 650 0> mark @Anchor18
 	<anchor 510 0> mark @Anchor19;
-} basevowelpositioningwithyetivordehi;
+} base_vowel_positioning_with_yetiv_or_dehi;
 
-lookup shiftbasevowelpositioningwithyetivordehi {
+lookup shift_base_vowel_positioning_with_yetiv_or_dehi {
   lookupflag RightToLeft;
     pos [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
-	\qubuts \meteg \qamatsqatan ]'lookup basevowelpositioningwithyetivordehi  [\yetiv \dehi ] ;
-} shiftbasevowelpositioningwithyetivordehi;
+	\qubuts \meteg \qamatsqatan ]'lookup base_vowel_positioning_with_yetiv_or_dehi  [\yetiv \dehi ] ;
+} shift_base_vowel_positioning_with_yetiv_or_dehi;
 
-lookup holampositioning {
+lookup holam_positioning {
   lookupflag RightToLeft;
   markClass [\holam ] <anchor -442 0> @Anchor20;
   pos base [\alef \alef.wide \alefmapiq ] <anchor -100 0> mark @Anchor20;
@@ -2935,9 +2938,9 @@ lookup holampositioning {
   pos base [\finalkhafdagesh \finalkafsheva \finalkafqamats ] <anchor -80 0> mark @Anchor20;
   pos base [\finalpedagesh ] <anchor 0 0> mark @Anchor20;
   pos base [\aleflamed ] <anchor 180 0> mark @Anchor20;
-} holampositioning;
+} holam_positioning;
 
-lookup holampositioningbeforealeforaleflamed {
+lookup holam_positioning_before_alef_or_aleflamed {
   lookupflag RightToLeft;
   markClass [\holam ] <anchor -442 0> @Anchor21;
   pos base [\alef \shin \dalet.wide ] <anchor -242 0> mark @Anchor21;
@@ -2975,17 +2978,17 @@ lookup holampositioningbeforealeforaleflamed {
   pos base [\nundagesh \tavdagesh \tavrafe ] <anchor -405 0> mark @Anchor21;
   pos base [\samekhdagesh ] <anchor -420 0> mark @Anchor21;
   pos base [\vavholam \vavholamhaser ] <anchor 120 0> mark @Anchor21;
-} holampositioningbeforealeforaleflamed;
+} holam_positioning_before_alef_or_aleflamed;
 
-lookup shiftholampositioningbeforealeforaleflamed {
+lookup shift_holam_positioning_before_alef_or_aleflamed {
   lookupflag RightToLeft;
-    pos [\holam ]'lookup holampositioningbeforealeforaleflamed  [\alef \aleflamed ] ;
-    pos [\holam ]'lookup holampositioningbeforealeforaleflamed  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_alef_or_aleflamed  [\alef \aleflamed ] ;
+    pos [\holam ]'lookup holam_positioning_before_alef_or_aleflamed  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] ;
-    pos [\holam ]'lookup holampositioningbeforealeforaleflamed  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_alef_or_aleflamed  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -2994,7 +2997,7 @@ lookup shiftholampositioningbeforealeforaleflamed {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] ;
-    pos [\holam ]'lookup holampositioningbeforealeforaleflamed  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_alef_or_aleflamed  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3007,32 +3010,32 @@ lookup shiftholampositioningbeforealeforaleflamed {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] ;
-} shiftholampositioningbeforealeforaleflamed;
+} shift_holam_positioning_before_alef_or_aleflamed;
 
-lookup revertholampositioningbeforealeforaleflamed {
+lookup revert_holam_positioning_before_alef_or_aleflamed {
   lookupflag RightToLeft;
-    pos [\holam ]'lookup holampositioning  [\alef \aleflamed ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
+    pos [\holam ]'lookup holam_positioning  [\alef \aleflamed ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioning  [\alef \aleflamed ] [\vavholam ] ;
-    pos [\holam ]'lookup holampositioning  [\alef \aleflamed ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\alef \aleflamed ] [\vavholam ] ;
+    pos [\holam ]'lookup holam_positioning  [\alef \aleflamed ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholam ] ;
-    pos [\holam ]'lookup holampositioning  [\alef \aleflamed ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioning  [\alef \aleflamed ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\alef \aleflamed ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning  [\alef \aleflamed ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioning  [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\alefmapiq ] ;
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3042,7 +3045,7 @@ lookup revertholampositioningbeforealeforaleflamed {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3056,12 +3059,12 @@ lookup revertholampositioningbeforealeforaleflamed {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3070,7 +3073,7 @@ lookup revertholampositioningbeforealeforaleflamed {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3079,37 +3082,7 @@ lookup revertholampositioningbeforealeforaleflamed {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3122,43 +3095,7 @@ lookup revertholampositioningbeforealeforaleflamed {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3170,8 +3107,8 @@ lookup revertholampositioningbeforealeforaleflamed {
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\vavholamhaser ] ;
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3187,13 +3124,79 @@ lookup revertholampositioningbeforealeforaleflamed {
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef \aleflamed ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3202,7 +3205,7 @@ lookup revertholampositioningbeforealeforaleflamed {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3215,9 +3218,9 @@ lookup revertholampositioningbeforealeforaleflamed {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alefmapiq ] ;
-} revertholampositioningbeforealeforaleflamed;
+} revert_holam_positioning_before_alef_or_aleflamed;
 
-lookup holampositioningwithhighcantillationmarks {
+lookup holam_positioning_with_high_cantillation_marks {
   lookupflag RightToLeft;
   markClass [\holam ] <anchor -442 0> @Anchor22;
   pos base [\gimel ] <anchor -75 0> mark @Anchor22;
@@ -3228,11 +3231,11 @@ lookup holampositioningwithhighcantillationmarks {
   pos base [\zaindagesh ] <anchor -152 0> mark @Anchor22;
   pos base [\yoddagesh ] <anchor -290 0> mark @Anchor22;
   pos base [\nundagesh \gimelrafe ] <anchor -180 0> mark @Anchor22;
-} holampositioningwithhighcantillationmarks;
+} holam_positioning_with_high_cantillation_marks;
 
-lookup shiftholampositioningwithhighcantillationmarks {
+lookup shift_holam_positioning_with_high_cantillation_marks {
   lookupflag RightToLeft;
-    pos [\holam ]'lookup holampositioningwithhighcantillationmarks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_with_high_cantillation_marks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
 	\gereshaccent \gershayimaccent \pazer \qadma \ole \iluy \masoracircle 
 	\rafe \jsvarika ] [\bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed \finalmem \mem 
 	\finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi \tsadi \kof \resh 
@@ -3247,20 +3250,20 @@ lookup shiftholampositioningwithhighcantillationmarks {
 	\aleflamed \gimelrafe \daletrafe \herafe \vavholamhaser 
 	\finalkafsheva \finalkafqamats \lamedholam \lameddageshholam 
 	\tavrafe ] ;
-    pos [\holam ]'lookup holampositioningwithhighcantillationmarks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_with_high_cantillation_marks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
 	\gereshaccent \gershayimaccent \pazer \qadma \ole \iluy \masoracircle 
 	\rafe \jsvarika ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioningwithhighcantillationmarks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_with_high_cantillation_marks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
 	\gereshaccent \gershayimaccent \pazer \qadma \ole \iluy \masoracircle 
 	\rafe \jsvarika ] [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioningwithhighcantillationmarks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_with_high_cantillation_marks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
 	\gereshaccent \gershayimaccent \pazer \qadma \ole \iluy \masoracircle 
 	\rafe \jsvarika ] [\alef ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningwithhighcantillationmarks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_with_high_cantillation_marks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
 	\gereshaccent \gershayimaccent \pazer \qadma \ole \iluy \masoracircle 
 	\rafe \jsvarika ] [\alef ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningwithhighcantillationmarks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_with_high_cantillation_marks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
 	\gereshaccent \gershayimaccent \pazer \qadma \ole \iluy \masoracircle 
 	\rafe \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
@@ -3279,7 +3282,7 @@ lookup shiftholampositioningwithhighcantillationmarks {
 	\aleflamed \gimelrafe \daletrafe \herafe \vavholamhaser 
 	\finalkafsheva \finalkafqamats \lamedholam \lameddageshholam 
 	\tavrafe ] ;
-    pos [\holam ]'lookup holampositioningwithhighcantillationmarks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_with_high_cantillation_marks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
 	\gereshaccent \gershayimaccent \pazer \qadma \ole \iluy \masoracircle 
 	\rafe \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
@@ -3287,30 +3290,30 @@ lookup shiftholampositioningwithhighcantillationmarks {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioningwithhighcantillationmarks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_with_high_cantillation_marks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
 	\gereshaccent \gershayimaccent \pazer \qadma \ole \iluy \masoracircle 
 	\rafe \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioningwithhighcantillationmarks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_with_high_cantillation_marks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
 	\gereshaccent \gershayimaccent \pazer \qadma \ole \iluy \masoracircle 
 	\rafe \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningwithhighcantillationmarks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_with_high_cantillation_marks  [\dotnosp \segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa 
 	\gereshaccent \gershayimaccent \pazer \qadma \ole \iluy \masoracircle 
 	\rafe \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
-} shiftholampositioningwithhighcantillationmarks;
+} shift_holam_positioning_with_high_cantillation_marks;
 
-lookup highcantillationmarkpositioning {
+lookup high_cantillation_mark_positioning {
   lookupflag RightToLeft;
   markClass [\qarneypara ] <anchor 0 0> @Anchor32;
   markClass [\zarqa ] <anchor 0 0> @Anchor31;
@@ -3936,39 +3939,39 @@ lookup highcantillationmarkpositioning {
 	<anchor 610 0> mark @Anchor30
 	<anchor 686 150> mark @Anchor31
 	<anchor 686 150> mark @Anchor32;
-} highcantillationmarkpositioning;
+} high_cantillation_mark_positioning;
 
-lookup holampositioningbeforepashta {
+lookup holam_positioning_before_pashta {
   lookupflag RightToLeft;
     pos \holam <-162 0 0 0>;
-} holampositioningbeforepashta;
+} holam_positioning_before_pashta;
 
-lookup shiftholampositioningbeforepashta {
+lookup shift_holam_positioning_before_pashta {
   lookupflag RightToLeft;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\alef ] [\vavholam ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\alef ] [\vavholam ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholam ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\alef ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\alef ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\alefmapiq ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3978,7 +3981,7 @@ lookup shiftholampositioningbeforepashta {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -3992,12 +3995,12 @@ lookup shiftholampositioningbeforepashta {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4006,7 +4009,7 @@ lookup shiftholampositioningbeforepashta {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4015,37 +4018,7 @@ lookup shiftholampositioningbeforepashta {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4058,43 +4031,7 @@ lookup shiftholampositioningbeforepashta {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4106,8 +4043,8 @@ lookup shiftholampositioningbeforepashta {
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavholamhaser ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4123,13 +4060,79 @@ lookup shiftholampositioningbeforepashta {
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4138,7 +4141,7 @@ lookup shiftholampositioningbeforepashta {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4151,29 +4154,29 @@ lookup shiftholampositioningbeforepashta {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\alef ] [\vavholam ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\alef ] [\vavholam ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholam ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\alef ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\alef ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\alefmapiq ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4183,7 +4186,7 @@ lookup shiftholampositioningbeforepashta {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4197,12 +4200,12 @@ lookup shiftholampositioningbeforepashta {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\sheva \hatafsegol \hatafpatah \hatafqamats \hiriq \tsere \segol \patah \qamats 
 	\holam \qubuts \qamatsqatan ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4211,7 +4214,7 @@ lookup shiftholampositioningbeforepashta {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4220,37 +4223,7 @@ lookup shiftholampositioningbeforepashta {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4263,43 +4236,7 @@ lookup shiftholampositioningbeforepashta {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
-	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
-	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
-	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4311,8 +4248,8 @@ lookup shiftholampositioningbeforepashta {
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
-	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavholamhaser ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4328,13 +4265,79 @@ lookup shiftholampositioningbeforepashta {
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavholamhaser ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alef ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
+	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
+	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
+	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\vavdagesh ] ;
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4343,7 +4346,7 @@ lookup shiftholampositioningbeforepashta {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alefmapiq ] ;
-    pos [\holam ]'lookup holampositioningbeforepashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\holam ]'lookup holam_positioning_before_pashta  [\masoracircle ] [\pashta ] [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4356,9 +4359,9 @@ lookup shiftholampositioningbeforepashta {
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alefmapiq ] ;
-} shiftholampositioningbeforepashta;
+} shift_holam_positioning_before_pashta;
 
-lookup holampositioningbeforesegoltapashtaortsinor {
+lookup holam_positioning_before_segolta_pashta_or_tsinor {
   lookupflag RightToLeft;
   markClass [\segolta ] <anchor 0 0> @Anchor35;
   markClass [\pashta ] <anchor -57 0> @Anchor34;
@@ -4366,9 +4369,9 @@ lookup holampositioningbeforesegoltapashtaortsinor {
   pos mark [\holam \holamhaser ] <anchor -30 200> mark @Anchor33
 	<anchor 229 0> mark @Anchor34
 	<anchor -570 0> mark @Anchor35;
-} holampositioningbeforesegoltapashtaortsinor;
+} holam_positioning_before_segolta_pashta_or_tsinor;
 
-lookup shiftholampositioningbeforesegoltapashtaortsinor {
+lookup shift_holam_positioning_before_segolta_pashta_or_tsinor {
   lookupflag RightToLeft;
     pos [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
@@ -4382,7 +4385,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed \finalmem \mem 
+	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed \finalmem \mem 
 	\finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi \tsadi \kof \resh 
 	\shin \tav \vavvav \vavyod \yodyod \dottedcircle \yodhiriq \yodyodpatah 
 	\ayin.alt \alef.wide \dalet.wide \he.wide \kaf.wide \lamed.wide 
@@ -4407,7 +4410,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed \finalmem \mem 
+	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed \finalmem \mem 
 	\finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi \tsadi \kof \resh 
 	\shin \tav \vavvav \vavyod \yodyod \dottedcircle \yodhiriq \yodyodpatah 
 	\ayin.alt \alef.wide \dalet.wide \he.wide \kaf.wide \lamed.wide 
@@ -4432,7 +4435,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4461,7 +4464,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4490,7 +4493,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\alef ] [\dotnosp \atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia 
+	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\alef ] [\dotnosp \atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia 
 	\zarqa \pashta \yetiv \tevir \gereshaccent \gereshmuqdam 
 	\gershayimaccent \qarneypara \telishagedola \pazer \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4509,7 +4512,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\alef ] [\dotnosp \atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia 
+	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\alef ] [\dotnosp \atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia 
 	\zarqa \pashta \yetiv \tevir \gereshaccent \gereshmuqdam 
 	\gershayimaccent \qarneypara \telishagedola \pazer \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4528,7 +4531,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4551,7 +4554,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4574,7 +4577,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\alef ] [\vavholamhaser ] ;
+	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\alef ] [\vavholamhaser ] ;
     pos [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
 	\tsadi \kof \resh \shin \tav \vavvav \vavyod \yodyod \dottedcircle 
@@ -4587,7 +4590,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\alef ] [\vavholamhaser ] ;
+	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\alef ] [\vavholamhaser ] ;
     pos [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
 	\tsadi \kof \resh \shin \tav \vavvav \vavyod \yodyod \dottedcircle 
@@ -4600,7 +4603,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4617,7 +4620,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4634,7 +4637,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\alefmapiq ] ;
+	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\alefmapiq ] ;
     pos [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
 	\tsadi \kof \resh \shin \tav \vavvav \vavyod \yodyod \dottedcircle 
@@ -4647,7 +4650,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\alefmapiq ] ;
+	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\alefmapiq ] ;
     pos [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
 	\tsadi \kof \resh \shin \tav \vavvav \vavyod \yodyod \dottedcircle 
@@ -4660,7 +4663,7 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\lameddageshholam \tavrafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4677,14 +4680,14 @@ lookup shiftholampositioningbeforesegoltapashtaortsinor {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holampositioningbeforesegoltapashtaortsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+	\lameddageshholam \tavrafe ] [\dagesh \rafe ] [\holam ] [\segolta \pashta \tsinor ]'lookup holam_positioning_before_segolta_pashta_or_tsinor  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\alefmapiq ] ;
-} shiftholampositioningbeforesegoltapashtaortsinor;
+} shift_holam_positioning_before_segolta_pashta_or_tsinor;
 
-lookup segoltaandtelishaqetanapositioningbeforeletter {
+lookup segolta_and_telisha_qetana_positioning_before_letter {
   lookupflag RightToLeft;
   markClass [\segolta ] <anchor 0 0> @Anchor36;
   markClass [\telishaqetana ] <anchor -347 0> @Anchor36;
@@ -4756,11 +4759,11 @@ lookup segoltaandtelishaqetanapositioningbeforeletter {
   pos base [\herafe ] <anchor 583 150> mark @Anchor36;
   pos base [\lamedholam \lameddageshholam ] <anchor 640 0> mark @Anchor36;
   pos base [\tavrafe ] <anchor 686 150> mark @Anchor36;
-} segoltaandtelishaqetanapositioningbeforeletter;
+} segolta_and_telisha_qetana_positioning_before_letter;
 
-lookup shiftsegoltaandtelishaqetanapositioningbeforeletterorpaseq {
+lookup shift_segolta_and_telisha_qetana_positioning_before_letter_or_p {
   lookupflag RightToLeft;
-    pos [\segolta \telishaqetana ]'lookup segoltaandtelishaqetanapositioningbeforeletter  [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
+    pos [\segolta \telishaqetana ]'lookup segolta_and_telisha_qetana_positioning_before_letter  [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
 	\tsadi \kof \resh \shin \tav \vavvav \vavyod \yodyod \dottedcircle 
 	\yodhiriq \yodyodpatah \ayin.alt \alef.wide \dalet.wide \he.wide 
@@ -4773,7 +4776,7 @@ lookup shiftsegoltaandtelishaqetanapositioningbeforeletterorpaseq {
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
 	\lameddageshholam \tavrafe ] ;
-    pos [\segolta \telishaqetana ]'lookup segoltaandtelishaqetanapositioningbeforeletter  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\segolta \telishaqetana ]'lookup segolta_and_telisha_qetana_positioning_before_letter  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
@@ -4790,15 +4793,15 @@ lookup shiftsegoltaandtelishaqetanapositioningbeforeletterorpaseq {
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
 	\lameddageshholam \tavrafe ] ;
-    pos [\segolta \telishaqetana ]'lookup segoltaandtelishaqetanapositioningbeforeletter  [\paseq ] ;
-    pos [\segolta \telishaqetana ]'lookup segoltaandtelishaqetanapositioningbeforeletter  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
+    pos [\segolta \telishaqetana ]'lookup segolta_and_telisha_qetana_positioning_before_letter  [\paseq ] ;
+    pos [\segolta \telishaqetana ]'lookup segolta_and_telisha_qetana_positioning_before_letter  [\atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia \zarqa 
 	\pashta \yetiv \tevir \gereshaccent \gereshmuqdam \gershayimaccent 
 	\qarneypara \telishagedola \pazer \atnahhafukh \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \meteg \jsvarika ] [\paseq ] ;
-} shiftsegoltaandtelishaqetanapositioningbeforeletterorpaseq;
+} shift_segolta_and_telisha_qetana_positioning_before_letter_or_p;
 
-lookup telishagedolapositioningonletterfollowinganotherletter {
+lookup telisha_gedola_positioning_on_letter_following_another_letter {
   lookupflag RightToLeft;
   markClass [\telishagedola ] <anchor 347 0> @Anchor37;
   pos base [\alef ] <anchor 628 0> mark @Anchor37;
@@ -4861,9 +4864,9 @@ lookup telishagedolapositioningonletterfollowinganotherletter {
   pos base [\gimelrafe ] <anchor 445 150> mark @Anchor37;
   pos base [\herafe ] <anchor 590 150> mark @Anchor37;
   pos base [\tavrafe ] <anchor 686 150> mark @Anchor37;
-} telishagedolapositioningonletterfollowinganotherletter;
+} telisha_gedola_positioning_on_letter_following_another_letter;
 
-lookup shifttelishagedolapositioningonletterfollowinganotherletter {
+lookup shift_telisha_gedola_positioning_on_letter_following_another_le {
   lookupflag RightToLeft;
     pos [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
@@ -4889,7 +4892,7 @@ lookup shifttelishagedolapositioningonletterfollowinganotherletter {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\telishagedola ]'lookup telishagedolapositioningonletterfollowinganotherletter  ;
+	\lameddageshholam \tavrafe ] [\telishagedola ]'lookup telisha_gedola_positioning_on_letter_following_another_letter  ;
     pos [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
 	\tsadi \kof \resh \shin \tav \vavvav \vavyod \yodyod \dottedcircle 
@@ -4920,7 +4923,7 @@ lookup shifttelishagedolapositioningonletterfollowinganotherletter {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \sheva \hatafsegol \hatafpatah 
 	\hatafqamats \hiriq \tsere \segol \patah \qamats \holam \qubuts \dagesh 
-	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telishagedolapositioningonletterfollowinganotherletter  ;
+	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telisha_gedola_positioning_on_letter_following_another_letter  ;
     pos [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
 	\tsadi \kof \resh \shin \tav \vavvav \vavyod \yodyod \dottedcircle 
@@ -4957,7 +4960,7 @@ lookup shifttelishagedolapositioningonletterfollowinganotherletter {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \sheva \hatafsegol \hatafpatah 
 	\hatafqamats \hiriq \tsere \segol \patah \qamats \holam \qubuts \dagesh 
-	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telishagedolapositioningonletterfollowinganotherletter  ;
+	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telisha_gedola_positioning_on_letter_following_another_letter  ;
     pos [\dotnosp \atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia 
 	\zarqa \pashta \yetiv \tevir \gereshaccent \gereshmuqdam 
 	\gershayimaccent \qarneypara \telishagedola \pazer \munah \mahapakh 
@@ -4976,7 +4979,7 @@ lookup shifttelishagedolapositioningonletterfollowinganotherletter {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\telishagedola ]'lookup telishagedolapositioningonletterfollowinganotherletter  ;
+	\lameddageshholam \tavrafe ] [\telishagedola ]'lookup telisha_gedola_positioning_on_letter_following_another_letter  ;
     pos [\dotnosp \atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia 
 	\zarqa \pashta \yetiv \tevir \gereshaccent \gereshmuqdam 
 	\gershayimaccent \qarneypara \telishagedola \pazer \munah \mahapakh 
@@ -5001,7 +5004,7 @@ lookup shifttelishagedolapositioningonletterfollowinganotherletter {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \sheva \hatafsegol \hatafpatah 
 	\hatafqamats \hiriq \tsere \segol \patah \qamats \holam \qubuts \dagesh 
-	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telishagedolapositioningonletterfollowinganotherletter  ;
+	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telisha_gedola_positioning_on_letter_following_another_letter  ;
     pos [\dotnosp \atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia 
 	\zarqa \pashta \yetiv \tevir \gereshaccent \gereshmuqdam 
 	\gershayimaccent \qarneypara \telishagedola \pazer \munah \mahapakh 
@@ -5032,7 +5035,7 @@ lookup shifttelishagedolapositioningonletterfollowinganotherletter {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \sheva \hatafsegol \hatafpatah 
 	\hatafqamats \hiriq \tsere \segol \patah \qamats \holam \qubuts \dagesh 
-	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telishagedolapositioningonletterfollowinganotherletter  ;
+	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telisha_gedola_positioning_on_letter_following_another_letter  ;
     pos [\paseq ] [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
 	\tsadi \kof \resh \shin \tav \vavvav \vavyod \yodyod \dottedcircle 
@@ -5045,7 +5048,7 @@ lookup shifttelishagedolapositioningonletterfollowinganotherletter {
 	\pedagesh \tsadidagesh \kofdagesh \reshdagesh \shindagesh \tavdagesh 
 	\vavholam \betrafe \khafrafe \perafe \gimelrafe \daletrafe \herafe 
 	\vavholamhaser \finalkafsheva \finalkafqamats \lamedholam 
-	\lameddageshholam \tavrafe ] [\telishagedola ]'lookup telishagedolapositioningonletterfollowinganotherletter  ;
+	\lameddageshholam \tavrafe ] [\telishagedola ]'lookup telisha_gedola_positioning_on_letter_following_another_letter  ;
     pos [\paseq ] [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
 	\tsadi \kof \resh \shin \tav \vavvav \vavyod \yodyod \dottedcircle 
@@ -5064,7 +5067,7 @@ lookup shifttelishagedolapositioningonletterfollowinganotherletter {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \sheva \hatafsegol \hatafpatah 
 	\hatafqamats \hiriq \tsere \segol \patah \qamats \holam \qubuts \dagesh 
-	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telishagedolapositioningonletterfollowinganotherletter  ;
+	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telisha_gedola_positioning_on_letter_following_another_letter  ;
     pos [\paseq ] [\alef \bet \gimel \dalet \he \vav \zain \het \tet \yod \finalkaf \kaf \lamed 
 	\finalmem \mem \finalnun \nun \samekh \ayin \finalpe \pe \finaltsadi 
 	\tsadi \kof \resh \shin \tav \vavvav \vavyod \yodyod \dottedcircle 
@@ -5089,10 +5092,10 @@ lookup shifttelishagedolapositioningonletterfollowinganotherletter {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \sheva \hatafsegol \hatafpatah 
 	\hatafqamats \hiriq \tsere \segol \patah \qamats \holam \qubuts \dagesh 
-	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telishagedolapositioningonletterfollowinganotherletter  ;
-} shifttelishagedolapositioningonletterfollowinganotherletter;
+	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\telishagedola ]'lookup telisha_gedola_positioning_on_letter_following_another_letter  ;
+} shift_telisha_gedola_positioning_on_letter_following_another_le;
 
-lookup basecantillationmarkpositioning {
+lookup base_cantillation_mark_positioning {
   lookupflag RightToLeft;
   markClass [\yetiv ] <anchor 73 0> @Anchor39;
   markClass [\dehi ] <anchor 71 0> @Anchor39;
@@ -5218,9 +5221,9 @@ lookup basecantillationmarkpositioning {
 	<anchor 620 0> mark @Anchor39;
   pos base [\vavholam \vavholamhaser ] <anchor 275 0> mark @Anchor38
 	<anchor 0 0> mark @Anchor39;
-} basecantillationmarkpositioning;
+} base_cantillation_mark_positioning;
 
-lookup basecantillationmarkpositioningwithoneotherbasemark {
+lookup base_cantillation_mark_positioning_with_one_other_base_mark {
   lookupflag RightToLeft;
   markClass [\atnah \atnahhafukh \mahapakh \darga \yerahbenyomo ] <anchor -191 0> @Anchor40;
   markClass [\tipeha ] <anchor -183 0> @Anchor40;
@@ -5288,16 +5291,16 @@ lookup basecantillationmarkpositioningwithoneotherbasemark {
   pos base [\reshdagesh ] <anchor 600 0> mark @Anchor40;
   pos base [\tavdagesh \tavrafe ] <anchor 645 0> mark @Anchor40;
   pos base [\vavholam \vavholamhaser ] <anchor 345 0> mark @Anchor40;
-} basecantillationmarkpositioningwithoneotherbasemark;
+} base_cantillation_mark_positioning_with_one_other_base_mark;
 
-lookup shiftbasecantillationmarkpositioningwithoneotherbasemark {
+lookup shift_base_cantillation_mark_positioning_with_one_other_base_ma {
   lookupflag RightToLeft;
     pos [\atnah \tipeha \tevir \atnahhafukh \munah \mahapakh \merkha \merkhakefula \darga 
-	\yerahbenyomo ]'lookup basecantillationmarkpositioningwithoneotherbasemark  [\atnah \tipeha \tevir \atnahhafukh \munah \mahapakh \merkha \merkhakefula \darga 
+	\yerahbenyomo ]'lookup base_cantillation_mark_positioning_with_one_other_base_mark  [\atnah \tipeha \tevir \atnahhafukh \munah \mahapakh \merkha \merkhakefula \darga 
 	\yerahbenyomo \meteg ] ;
-} shiftbasecantillationmarkpositioningwithoneotherbasemark;
+} shift_base_cantillation_mark_positioning_with_one_other_base_ma;
 
-lookup basecantillationmarkpositioningrelativetovowelmarks {
+lookup base_cantillation_mark_positioning_relative_to_vowel_marks {
   lookupflag RightToLeft;
   markClass [\meteg ] <anchor -139 0> @Anchor46;
   markClass [\yetiv ] <anchor 90 0> @Anchor45;
@@ -5376,9 +5379,9 @@ lookup basecantillationmarkpositioningrelativetovowelmarks {
 	<anchor 68 0> mark @Anchor44
 	<anchor 43 0> mark @Anchor45
 	<anchor 43 0> mark @Anchor46;
-} basecantillationmarkpositioningrelativetovowelmarks;
+} base_cantillation_mark_positioning_relative_to_vowel_marks;
 
-lookup basevowelmarkpositioningrelativetovowelandcantillationmarks {
+lookup base_vowel_mark_positioning_relative_to_vowel_and_cantillation_ {
   lookupflag RightToLeft;
   markClass [\patah ] <anchor 0 0> @Anchor48;
   markClass [\sheva ] <anchor -130 0> @Anchor47;
@@ -5409,9 +5412,9 @@ lookup basevowelmarkpositioningrelativetovowelandcantillationmarks {
 	<anchor -268 0> mark @Anchor48;
   pos mark [\meteg ] <anchor -326 0> mark @Anchor47
 	<anchor -402 0> mark @Anchor48;
-} basevowelmarkpositioningrelativetovowelandcantillationmarks;
+} base_vowel_mark_positioning_relative_to_vowel_and_cantillation_;
 
-lookup basecantillationmarkpositioningrelativetoothercantillationmarks {
+lookup base_cantillation_mark_positioning_relative_to_other_cantillati {
   lookupflag RightToLeft;
   markClass [\meteg ] <anchor -139 0> @Anchor52;
   markClass [\merkhakefula ] <anchor -7 0> @Anchor51;
@@ -5455,9 +5458,9 @@ lookup basecantillationmarkpositioningrelativetoothercantillationmarks {
 	<anchor -411 0> mark @Anchor50
 	<anchor -411 0> mark @Anchor51
 	<anchor -368 0> mark @Anchor52;
-} basecantillationmarkpositioningrelativetoothercantillationmarks;
+} base_cantillation_mark_positioning_relative_to_other_cantillati;
 
-lookup highcantillationmarkpositioningwithoneotherhighmark {
+lookup high_cantillation_mark_positioning_with_one_other_high_mark {
   lookupflag 0;
   markClass [\segolta \zarqa ] <anchor -127 0> @Anchor53;
   markClass [\shalshelet \zaqefqatan \revia ] <anchor 0 0> @Anchor53;
@@ -5531,18 +5534,18 @@ lookup highcantillationmarkpositioningwithoneotherhighmark {
   pos base [\vavholam ] <anchor 510 0> mark @Anchor53;
   pos base [\gimelrafe ] <anchor 725 0> mark @Anchor53;
   pos base [\vavholamhaser ] <anchor 470 0> mark @Anchor53;
-} highcantillationmarkpositioningwithoneotherhighmark;
+} high_cantillation_mark_positioning_with_one_other_high_mark;
 
-lookup shifthighcantillationmarkpositioningwithoneotherhighmark {
+lookup shift_high_cantillation_mark_positioning_with_one_other_high_ma {
   lookupflag 0;
     pos [\segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa \gereshaccent 
 	\gershayimaccent \qarneypara \telishagedola \pazer \qadma 
-	\telishaqetana \ole \iluy \masoracircle \jsvarika ]'lookup highcantillationmarkpositioningwithoneotherhighmark  [\segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa \gereshaccent 
+	\telishaqetana \ole \iluy \masoracircle \jsvarika ]'lookup high_cantillation_mark_positioning_with_one_other_high_mark  [\segolta \shalshelet \zaqefqatan \zaqefgadol \revia \zarqa \gereshaccent 
 	\gershayimaccent \qarneypara \telishagedola \pazer \qadma 
 	\telishaqetana \ole \iluy \masoracircle \jsvarika ] ;
-} shifthighcantillationmarkpositioningwithoneotherhighmark;
+} shift_high_cantillation_mark_positioning_with_one_other_high_ma;
 
-lookup highcantillationmarkpositioningrelativetootherhighcantillationm {
+lookup high_cantillation_mark_positioning_relative_to_other_high_canti {
   lookupflag RightToLeft;
   markClass [\segolta \shalshelet \zaqefqatan \revia \zarqa \qarneypara \iluy \masoracircle \jsvarika ] <anchor 0 0> @Anchor55;
   markClass [\zaqefgadol ] <anchor 3 0> @Anchor55;
@@ -5565,9 +5568,9 @@ lookup highcantillationmarkpositioningrelativetootherhighcantillationm {
 	<anchor -432 0> mark @Anchor55;
   pos mark [\telishaqetana ] <anchor -58 0> mark @Anchor54
 	<anchor -483 0> mark @Anchor55;
-} highcantillationmarkpositioningrelativetootherhighcantillationm;
+} high_cantillation_mark_positioning_relative_to_other_high_canti;
 
-lookup punctaextraordinariapositioning {
+lookup puncta_extraordinaria_positioning {
   lookupflag RightToLeft;
   markClass [\upperdot \lowerdot ] <anchor 0 0> @Anchor56;
   pos base [\alef ] <anchor 628 0> mark @Anchor56;
@@ -5624,9 +5627,9 @@ lookup punctaextraordinariapositioning {
   pos base [\reshdagesh ] <anchor 450 0> mark @Anchor56;
   pos base [\tavdagesh \tavrafe ] <anchor 686 0> mark @Anchor56;
   pos base [\vavholam ] <anchor 0 0> mark @Anchor56;
-} punctaextraordinariapositioning;
+} puncta_extraordinaria_positioning;
 
-lookup hiriqpositioningafteranothermarkandbeforefinalmem {
+lookup hiriq_positioning_after_another_mark_and_before_final_mem {
   lookupflag RightToLeft;
   markClass [\hiriq ] <anchor -37 0> @Anchor57;
   pos base [\alef \shin \dalet.wide ] <anchor 123 0> mark @Anchor57;
@@ -5660,9 +5663,9 @@ lookup hiriqpositioningafteranothermarkandbeforefinalmem {
   pos base [\resh.wide ] <anchor 118 0> mark @Anchor57;
   pos base [\tav.wide ] <anchor 143 0> mark @Anchor57;
   pos base [\zaindagesh ] <anchor 108 0> mark @Anchor57;
-} hiriqpositioningafteranothermarkandbeforefinalmem;
+} hiriq_positioning_after_another_mark_and_before_final_mem;
 
-lookup shifthiriqpositioningafteranothermarkandbeforefinalmem {
+lookup shift_hiriq_positioning_after_another_mark_and_before_final_mem {
   lookupflag RightToLeft;
     pos [\dotnosp \atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia 
 	\zarqa \pashta \yetiv \tevir \gereshaccent \gereshmuqdam 
@@ -5670,30 +5673,30 @@ lookup shifthiriqpositioningafteranothermarkandbeforefinalmem {
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \sheva \hatafsegol \hatafpatah 
 	\hatafqamats \hiriq \tsere \segol \patah \qamats \holam \qubuts \dagesh 
-	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\hiriq ]'lookup hiriqpositioningafteranothermarkandbeforefinalmem  [\finalmem \finalmem.wide ] ;
+	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\hiriq ]'lookup hiriq_positioning_after_another_mark_and_before_final_mem  [\finalmem \finalmem.wide ] ;
     pos [\dotnosp \atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia 
 	\zarqa \pashta \yetiv \tevir \gereshaccent \gereshmuqdam 
 	\gershayimaccent \qarneypara \telishagedola \pazer \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \sheva \hatafsegol \hatafpatah 
 	\hatafqamats \hiriq \tsere \segol \patah \qamats \holam \qubuts \dagesh 
-	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\hiriq ]'lookup hiriqpositioningafteranothermarkandbeforefinalmem  [\dotnosp \atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia 
+	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\hiriq ]'lookup hiriq_positioning_after_another_mark_and_before_final_mem  [\dotnosp \atnah \segolta \shalshelet \zaqefqatan \zaqefgadol \tipeha \revia 
 	\zarqa \pashta \yetiv \tevir \gereshaccent \gereshmuqdam 
 	\gershayimaccent \qarneypara \telishagedola \pazer \munah \mahapakh 
 	\merkha \merkhakefula \darga \qadma \telishaqetana \yerahbenyomo \ole 
 	\iluy \dehi \tsinor \masoracircle \sheva \hatafsegol \hatafpatah 
 	\hatafqamats \hiriq \tsere \segol \patah \qamats \holam \qubuts \dagesh 
 	\meteg \rafe \upperdot \lowerdot \jsvarika ] [\finalmem \finalmem.wide ] ;
-} shifthiriqpositioningafteranothermarkandbeforefinalmem;
+} shift_hiriq_positioning_after_another_mark_and_before_final_mem;
 
-lookup shinsindotpositioningoverdottedcircle {
+lookup shin_sin_dot_positioning_over_dotted_circle {
   lookupflag RightToLeft;
   markClass [\shindot ] <anchor 58 0> @Anchor58;
   markClass [\sindot ] <anchor -63 0> @Anchor58;
   pos base [\dottedcircle ] <anchor 622 0> mark @Anchor58;
-} shinsindotpositioningoverdottedcircle;
+} shin_sin_dot_positioning_over_dotted_circle;
 
-lookup metegpositioningbeforehatafvowel {
+lookup meteg_positioning_before_hataf_vowel {
   lookupflag RightToLeft;
   markClass [\meteg ] <anchor -496 0> @Anchor59;
   pos base [\alef ] <anchor 628 0> mark @Anchor59;
@@ -5757,14 +5760,14 @@ lookup metegpositioningbeforehatafvowel {
   pos base [\kofdagesh ] <anchor 540 0> mark @Anchor59;
   pos base [\tavdagesh \tavrafe ] <anchor 645 0> mark @Anchor59;
   pos base [\aleflamed ] <anchor 1120 0> mark @Anchor59;
-} metegpositioningbeforehatafvowel;
+} meteg_positioning_before_hataf_vowel;
 
-lookup shiftmetegpositioningbeforehatafvowel {
+lookup shift_meteg_positioning_before_hataf_vowel {
   lookupflag RightToLeft;
-    pos [\meteg ]'lookup metegpositioningbeforehatafvowel  [\hatafsegol \hatafpatah \hatafqamats ] ;
-} shiftmetegpositioningbeforehatafvowel;
+    pos [\meteg ]'lookup meteg_positioning_before_hataf_vowel  [\hatafsegol \hatafpatah \hatafqamats ] ;
+} shift_meteg_positioning_before_hataf_vowel;
 
-lookup metegpositioningbeforetseresegolpatahqamatsorqubuts {
+lookup meteg_positioning_before_tsere_segol_patah_qamats_or_qubuts {
   lookupflag RightToLeft;
   markClass [\meteg ] <anchor -385 0> @Anchor60;
   pos base [\alef ] <anchor 628 0> mark @Anchor60;
@@ -5828,14 +5831,14 @@ lookup metegpositioningbeforetseresegolpatahqamatsorqubuts {
   pos base [\kofdagesh ] <anchor 540 0> mark @Anchor60;
   pos base [\tavdagesh \tavrafe ] <anchor 645 0> mark @Anchor60;
   pos base [\aleflamed ] <anchor 1060 0> mark @Anchor60;
-} metegpositioningbeforetseresegolpatahqamatsorqubuts;
+} meteg_positioning_before_tsere_segol_patah_qamats_or_qubuts;
 
-lookup shiftmetegpositioningbeforetseresegolpatahqamatsorqubuts {
+lookup shift_meteg_positioning_before_tsere_segol_patah_qamats_or_qubu {
   lookupflag RightToLeft;
-    pos [\meteg ]'lookup metegpositioningbeforetseresegolpatahqamatsorqubuts  [\tsere \segol \patah \qamats \qubuts ] ;
-} shiftmetegpositioningbeforetseresegolpatahqamatsorqubuts;
+    pos [\meteg ]'lookup meteg_positioning_before_tsere_segol_patah_qamats_or_qubuts  [\tsere \segol \patah \qamats \qubuts ] ;
+} shift_meteg_positioning_before_tsere_segol_patah_qamats_or_qubu;
 
-lookup metegpositioningbeforeshevaorhiriq {
+lookup meteg_positioning_before_sheva_or_hiriq {
   lookupflag RightToLeft;
   markClass [\meteg ] <anchor -266 0> @Anchor61;
   pos base [\alef ] <anchor 628 0> mark @Anchor61;
@@ -5899,14 +5902,14 @@ lookup metegpositioningbeforeshevaorhiriq {
   pos base [\reshdagesh ] <anchor 690 0> mark @Anchor61;
   pos base [\tavdagesh \tavrafe ] <anchor 645 0> mark @Anchor61;
   pos base [\aleflamed ] <anchor 900 0> mark @Anchor61;
-} metegpositioningbeforeshevaorhiriq;
+} meteg_positioning_before_sheva_or_hiriq;
 
-lookup shiftmetegpositioningbeforeshevaorhiriq {
+lookup shift_meteg_positioning_before_sheva_or_hiriq {
   lookupflag RightToLeft;
-    pos [\meteg ]'lookup metegpositioningbeforeshevaorhiriq  [\sheva \hiriq ] ;
-} shiftmetegpositioningbeforeshevaorhiriq;
+    pos [\meteg ]'lookup meteg_positioning_before_sheva_or_hiriq  [\sheva \hiriq ] ;
+} shift_meteg_positioning_before_sheva_or_hiriq;
 
-lookup yetivdehipositioningaftermetegandhatafvowel {
+lookup yetiv_dehi_positioning_after_meteg_and_hataf_vowel {
   lookupflag RightToLeft;
   markClass [\yetiv ] <anchor -71 0> @Anchor62;
   markClass [\dehi ] <anchor -98 0> @Anchor62;
@@ -5970,9 +5973,9 @@ lookup yetivdehipositioningaftermetegandhatafvowel {
   pos base [\pedagesh \reshdagesh \perafe ] <anchor 490 0> mark @Anchor62;
   pos base [\kofdagesh ] <anchor 540 0> mark @Anchor62;
   pos base [\tavdagesh \tavrafe ] <anchor 645 0> mark @Anchor62;
-} yetivdehipositioningaftermetegandhatafvowel;
+} yetiv_dehi_positioning_after_meteg_and_hataf_vowel;
 
-lookup yetivdehipositioningaftermetegandtseresegolpatahqamatsorqubuts {
+lookup yetiv_dehi_positioning_after_meteg_and_tsere_segol_patah_qamats {
   lookupflag RightToLeft;
   markClass [\yetiv ] <anchor 39 0> @Anchor63;
   markClass [\dehi ] <anchor 12 0> @Anchor63;
@@ -6036,9 +6039,9 @@ lookup yetivdehipositioningaftermetegandtseresegolpatahqamatsorqubuts {
   pos base [\pedagesh \perafe ] <anchor 490 0> mark @Anchor63;
   pos base [\kofdagesh ] <anchor 540 0> mark @Anchor63;
   pos base [\tavdagesh \tavrafe ] <anchor 645 0> mark @Anchor63;
-} yetivdehipositioningaftermetegandtseresegolpatahqamatsorqubuts;
+} yetiv_dehi_positioning_after_meteg_and_tsere_segol_patah_qamats;
 
-lookup yetivdehipositioningaftermetegandshevaorhiriq {
+lookup yetiv_dehi_positioning_after_meteg_and_sheva_or_hiriq {
   lookupflag RightToLeft;
   markClass [\yetiv ] <anchor 149 0> @Anchor64;
   markClass [\dehi ] <anchor 122 0> @Anchor64;
@@ -6102,23 +6105,23 @@ lookup yetivdehipositioningaftermetegandshevaorhiriq {
   pos base [\kofdagesh ] <anchor 540 0> mark @Anchor64;
   pos base [\reshdagesh ] <anchor 690 0> mark @Anchor64;
   pos base [\tavdagesh \tavrafe ] <anchor 645 0> mark @Anchor64;
-} yetivdehipositioningaftermetegandshevaorhiriq;
+} yetiv_dehi_positioning_after_meteg_and_sheva_or_hiriq;
 
-lookup shiftyetivdehipositioningaftermetegandvowel {
+lookup shift_yetiv_dehi_positioning_after_meteg_and_vowel {
   lookupflag RightToLeft;
-    pos [\meteg ] [\hatafsegol ] [\yetiv \dehi ]'lookup yetivdehipositioningaftermetegandhatafvowel  ;
-    pos [\meteg ] [\hatafpatah ] [\yetiv \dehi ]'lookup yetivdehipositioningaftermetegandhatafvowel  ;
-    pos [\meteg ] [\hatafqamats ] [\yetiv \dehi ]'lookup yetivdehipositioningaftermetegandhatafvowel  ;
-    pos [\meteg ] [\tsere ] [\yetiv \dehi ]'lookup yetivdehipositioningaftermetegandtseresegolpatahqamatsorqubuts  ;
-    pos [\meteg ] [\segol ] [\yetiv \dehi ]'lookup yetivdehipositioningaftermetegandtseresegolpatahqamatsorqubuts  ;
-    pos [\meteg ] [\patah ] [\yetiv \dehi ]'lookup yetivdehipositioningaftermetegandtseresegolpatahqamatsorqubuts  ;
-    pos [\meteg ] [\qamats ] [\yetiv \dehi ]'lookup yetivdehipositioningaftermetegandtseresegolpatahqamatsorqubuts  ;
-    pos [\meteg ] [\qubuts ] [\yetiv \dehi ]'lookup yetivdehipositioningaftermetegandtseresegolpatahqamatsorqubuts  ;
-    pos [\meteg ] [\sheva ] [\yetiv \dehi ]'lookup yetivdehipositioningaftermetegandshevaorhiriq  ;
-    pos [\meteg ] [\hiriq ] [\yetiv \dehi ]'lookup yetivdehipositioningaftermetegandshevaorhiriq  ;
-} shiftyetivdehipositioningaftermetegandvowel;
+    pos [\meteg ] [\hatafsegol ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_meteg_and_hataf_vowel  ;
+    pos [\meteg ] [\hatafpatah ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_meteg_and_hataf_vowel  ;
+    pos [\meteg ] [\hatafqamats ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_meteg_and_hataf_vowel  ;
+    pos [\meteg ] [\tsere ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_meteg_and_tsere_segol_patah_qamats  ;
+    pos [\meteg ] [\segol ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_meteg_and_tsere_segol_patah_qamats  ;
+    pos [\meteg ] [\patah ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_meteg_and_tsere_segol_patah_qamats  ;
+    pos [\meteg ] [\qamats ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_meteg_and_tsere_segol_patah_qamats  ;
+    pos [\meteg ] [\qubuts ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_meteg_and_tsere_segol_patah_qamats  ;
+    pos [\meteg ] [\sheva ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_meteg_and_sheva_or_hiriq  ;
+    pos [\meteg ] [\hiriq ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_meteg_and_sheva_or_hiriq  ;
+} shift_yetiv_dehi_positioning_after_meteg_and_vowel;
 
-lookup yetivdehipositioningafterhatafvowelandmeteg {
+lookup yetiv_dehi_positioning_after_hataf_vowel_and_meteg {
   lookupflag RightToLeft;
   markClass [\yetiv ] <anchor 5 0> @Anchor65;
   markClass [\dehi ] <anchor -13 0> @Anchor65;
@@ -6182,9 +6185,9 @@ lookup yetivdehipositioningafterhatafvowelandmeteg {
   pos base [\kofdagesh ] <anchor 540 0> mark @Anchor65;
   pos base [\tavdagesh \tavrafe ] <anchor 645 0> mark @Anchor65;
   pos base [\vavholam \vavholamhaser ] <anchor 285 0> mark @Anchor65;
-} yetivdehipositioningafterhatafvowelandmeteg;
+} yetiv_dehi_positioning_after_hataf_vowel_and_meteg;
 
-lookup yetivdehipositioningaftertseresegolpatahqamatsorqubutsandmeteg {
+lookup yetiv_dehi_positioning_after_tsere_segol_patah_qamats_or_qubuts {
   lookupflag RightToLeft;
   markClass [\yetiv ] <anchor 98 0> @Anchor66;
   markClass [\dehi ] <anchor 71 0> @Anchor66;
@@ -6247,9 +6250,9 @@ lookup yetivdehipositioningaftertseresegolpatahqamatsorqubutsandmeteg {
   pos base [\pedagesh \perafe \daletrafe ] <anchor 490 0> mark @Anchor66;
   pos base [\kofdagesh ] <anchor 540 0> mark @Anchor66;
   pos base [\tavdagesh \tavrafe ] <anchor 645 0> mark @Anchor66;
-} yetivdehipositioningaftertseresegolpatahqamatsorqubutsandmeteg;
+} yetiv_dehi_positioning_after_tsere_segol_patah_qamats_or_qubuts;
 
-lookup yetivdehipositioningaftershevaorhiriqandmeteg {
+lookup yetiv_dehi_positioning_after_sheva_or_hiriq_and_meteg {
   lookupflag RightToLeft;
   markClass [\yetiv ] <anchor 200 0> @Anchor67;
   markClass [\dehi ] <anchor 173 0> @Anchor67;
@@ -6313,20 +6316,20 @@ lookup yetivdehipositioningaftershevaorhiriqandmeteg {
   pos base [\kofdagesh ] <anchor 540 0> mark @Anchor67;
   pos base [\reshdagesh ] <anchor 690 0> mark @Anchor67;
   pos base [\tavdagesh \tavrafe ] <anchor 645 0> mark @Anchor67;
-} yetivdehipositioningaftershevaorhiriqandmeteg;
+} yetiv_dehi_positioning_after_sheva_or_hiriq_and_meteg;
 
-lookup shiftyetivdehipositioningaftervowelandmeteg {
+lookup shift_yetiv_dehi_positioning_after_vowel_and_meteg {
   lookupflag RightToLeft;
-    pos [\hatafsegol \hatafpatah \hatafqamats ] [\meteg ] [\yetiv \dehi ]'lookup yetivdehipositioningafterhatafvowelandmeteg  ;
-    pos [\tsere ] [\meteg ] [\yetiv \dehi ]'lookup yetivdehipositioningaftertseresegolpatahqamatsorqubutsandmeteg  ;
-    pos [\segol ] [\meteg ] [\yetiv \dehi ]'lookup yetivdehipositioningaftertseresegolpatahqamatsorqubutsandmeteg  ;
-    pos [\patah ] [\meteg ] [\yetiv \dehi ]'lookup yetivdehipositioningaftertseresegolpatahqamatsorqubutsandmeteg  ;
-    pos [\qamats ] [\meteg ] [\yetiv \dehi ]'lookup yetivdehipositioningaftertseresegolpatahqamatsorqubutsandmeteg  ;
-    pos [\qubuts ] [\meteg ] [\yetiv \dehi ]'lookup yetivdehipositioningaftertseresegolpatahqamatsorqubutsandmeteg  ;
-    pos [\sheva ] [\meteg ] [\yetiv \dehi ]'lookup yetivdehipositioningaftershevaorhiriqandmeteg  ;
-} shiftyetivdehipositioningaftervowelandmeteg;
+    pos [\hatafsegol \hatafpatah \hatafqamats ] [\meteg ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_hataf_vowel_and_meteg  ;
+    pos [\tsere ] [\meteg ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_tsere_segol_patah_qamats_or_qubuts  ;
+    pos [\segol ] [\meteg ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_tsere_segol_patah_qamats_or_qubuts  ;
+    pos [\patah ] [\meteg ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_tsere_segol_patah_qamats_or_qubuts  ;
+    pos [\qamats ] [\meteg ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_tsere_segol_patah_qamats_or_qubuts  ;
+    pos [\qubuts ] [\meteg ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_tsere_segol_patah_qamats_or_qubuts  ;
+    pos [\sheva ] [\meteg ] [\yetiv \dehi ]'lookup yetiv_dehi_positioning_after_sheva_or_hiriq_and_meteg  ;
+} shift_yetiv_dehi_positioning_after_vowel_and_meteg;
 
-lookup vowelpositioningrelativetometeg {
+lookup vowel_positioning_relative_to_meteg {
   lookupflag RightToLeft;
   markClass [\hatafsegol \hatafpatah \hatafqamats ] <anchor 0 0> @Anchor71;
   markClass [\qubuts ] <anchor 0 0> @Anchor70;
@@ -6337,66 +6340,66 @@ lookup vowelpositioningrelativetometeg {
 	<anchor -419 0> mark @Anchor69
 	<anchor -453 0> mark @Anchor70
 	<anchor -538 0> mark @Anchor71;
-} vowelpositioningrelativetometeg;
+} vowel_positioning_relative_to_meteg;
 
-lookup shinsindotpositioningwhenmergedwithholam {
+lookup shin_sin_dot_positioning_when_merged_with_holam {
   lookupflag RightToLeft;
   markClass [\shindot ] <anchor 0 0> @Anchor72;
   markClass [\sindot ] <anchor 0 0> @Anchor73;
   pos base [\shin \shindagesh ] <anchor 450 0> mark @Anchor73
 	<anchor 950 0> mark @Anchor72;
-} shinsindotpositioningwhenmergedwithholam;
+} shin_sin_dot_positioning_when_merged_with_holam;
 
 feature kern {
 
  script latn;
      language dflt ;
-      lookup Latinkerning;
+      lookup latin_kerning;
 } kern;
 
 feature mark {
 
  script hebr;
      language dflt ;
-      lookup dotringabovepositioning;
-      lookup specialdageshplacement;
-      lookup basevowelpositioning;
-      lookup shiftvowelpositioningwithoneotherbasemark;
-      lookup shiftvowelpositioningwithtwootherbasemarks;
-      lookup shiftbasevowelpositioningwithmetegandyetivordehi;
-      lookup shiftbasevowelpositioningwithyetivordehi;
-      lookup holampositioning;
-      lookup shiftholampositioningbeforealeforaleflamed;
-      lookup revertholampositioningbeforealeforaleflamed;
-      lookup shiftholampositioningwithhighcantillationmarks;
-      lookup highcantillationmarkpositioning;
-      lookup shiftholampositioningbeforepashta;
-      lookup shiftsegoltaandtelishaqetanapositioningbeforeletterorpaseq;
-      lookup shifttelishagedolapositioningonletterfollowinganotherletter;
-      lookup basecantillationmarkpositioning;
-      lookup shiftbasecantillationmarkpositioningwithoneotherbasemark;
-      lookup shifthighcantillationmarkpositioningwithoneotherhighmark;
-      lookup punctaextraordinariapositioning;
-      lookup shifthiriqpositioningafteranothermarkandbeforefinalmem;
-      lookup shinsindotpositioningoverdottedcircle;
-      lookup shiftmetegpositioningbeforehatafvowel;
-      lookup shiftmetegpositioningbeforetseresegolpatahqamatsorqubuts;
-      lookup shiftmetegpositioningbeforeshevaorhiriq;
-      lookup shiftyetivdehipositioningaftermetegandvowel;
-      lookup shiftyetivdehipositioningaftervowelandmeteg;
-      lookup shinsindotpositioningwhenmergedwithholam;
+      lookup dot_ring_above_positioning;
+      lookup special_dagesh_placement;
+      lookup base_vowel_positioning;
+      lookup shift_vowel_positioning_with_one_other_base_mark;
+      lookup shift_vowel_positioning_with_two_other_base_marks;
+      lookup shift_base_vowel_positioning_with_meteg_and_yetiv_or_dehi;
+      lookup shift_base_vowel_positioning_with_yetiv_or_dehi;
+      lookup holam_positioning;
+      lookup shift_holam_positioning_before_alef_or_aleflamed;
+      lookup revert_holam_positioning_before_alef_or_aleflamed;
+      lookup shift_holam_positioning_with_high_cantillation_marks;
+      lookup high_cantillation_mark_positioning;
+      lookup shift_holam_positioning_before_pashta;
+      lookup shift_segolta_and_telisha_qetana_positioning_before_letter_or_p;
+      lookup shift_telisha_gedola_positioning_on_letter_following_another_le;
+      lookup base_cantillation_mark_positioning;
+      lookup shift_base_cantillation_mark_positioning_with_one_other_base_ma;
+      lookup shift_high_cantillation_mark_positioning_with_one_other_high_ma;
+      lookup puncta_extraordinaria_positioning;
+      lookup shift_hiriq_positioning_after_another_mark_and_before_final_mem;
+      lookup shin_sin_dot_positioning_over_dotted_circle;
+      lookup shift_meteg_positioning_before_hataf_vowel;
+      lookup shift_meteg_positioning_before_tsere_segol_patah_qamats_or_qubu;
+      lookup shift_meteg_positioning_before_sheva_or_hiriq;
+      lookup shift_yetiv_dehi_positioning_after_meteg_and_vowel;
+      lookup shift_yetiv_dehi_positioning_after_vowel_and_meteg;
+      lookup shin_sin_dot_positioning_when_merged_with_holam;
 } mark;
 
 feature mkmk {
 
  script hebr;
      language dflt ;
-      lookup shiftholampositioningbeforesegoltapashtaortsinor;
-      lookup basecantillationmarkpositioningrelativetovowelmarks;
-      lookup basevowelmarkpositioningrelativetovowelandcantillationmarks;
-      lookup basecantillationmarkpositioningrelativetoothercantillationmarks;
-      lookup highcantillationmarkpositioningrelativetootherhighcantillationm;
-      lookup vowelpositioningrelativetometeg;
+      lookup shift_holam_positioning_before_segolta_pashta_or_tsinor;
+      lookup base_cantillation_mark_positioning_relative_to_vowel_marks;
+      lookup base_vowel_mark_positioning_relative_to_vowel_and_cantillation_;
+      lookup base_cantillation_mark_positioning_relative_to_other_cantillati;
+      lookup high_cantillation_mark_positioning_relative_to_other_high_canti;
+      lookup vowel_positioning_relative_to_meteg;
 } mkmk;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 @MarkClass1 = [ shindot sindot ];
